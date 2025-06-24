@@ -1,88 +1,36 @@
-# **Portfolio Application**
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is my personal **portfolio application**, built to showcase my skills, projects, and experience as a **Full Stack Developer**. The application is designed for **performance, scalability, and security**, using modern web technologies.
+## Getting Started
 
-## **🚀 Features**
-
-✅ Fully responsive and mobile-friendly design  
-✅ Dynamic project showcase  
-✅ Contact form with email integration  
-✅ Optimized for SEO and performance  
-✅ Dark/Light mode toggle (if applicable)  
-✅ Deployed on **[Hosting Platform]**
-
-## **🛠 Tech Stack**
-
-### **Frontend:**
-
-- React.js / Next.js
-- TypeScript
-- Tailwind CSS / Material UI
-
-### **Backend:**
-
-- Node.js / Express.js / FastAPI
-- MongoDB / PostgreSQL
-
-### **DevOps & Tools:**
-
-- Docker
-- AWS / Vercel / Netlify
-- CI/CD with GitHub Actions / GitLab CI
-
-## **📂 Folder Structure**
-
-```plaintext
-📂 portfolio-app
- ┣ 📂 src
- ┃ ┣ 📂 components  # Reusable UI components
- ┃ ┣ 📂 pages       # Application pages (if using Next.js)
- ┃ ┣ 📂 assets      # Static assets (images, icons, etc.)
- ┃ ┣ 📂 hooks       # Custom hooks
- ┃ ┣ 📂 utils       # Utility functions
- ┃ ┣ 📜 App.js      # Main App component (if React)
- ┃ ┣ 📜 index.js    # Entry point
- ┣ 📂 server        # Backend logic (if applicable)
- ┣ 📜 .env          # Environment variables
- ┣ 📜 package.json  # Dependencies & scripts
- ┣ 📜 README.md     # Project documentation
-```
-
-## **🚀 Installation & Setup**
-
-1️⃣ Clone the repository:
-
-````bash
-git clone https://github.com/sibtain-wani/MyPortfolio.git
-cd MyPortfolio   ```
-
-2️⃣ Install dependencies:
-```bash
-npm install  # or yarn install
-````
-
-3️⃣ Run the development server:
+First, run the development server:
 
 ```bash
-npm run dev  # or yarn dev
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-4️⃣ Build for production:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-npm run build
-```
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## **🔗 Live Demo**
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-🚀 [Portfolio Live](https://your-portfolio-link.com)
+## Learn More
 
-## **📫 Contact Me**
+To learn more about Next.js, take a look at the following resources:
 
-📧 Email: wanisibu@gmail.com
-💼 LinkedIn: https://www.linkedin.com/in/sibtain-wani/
-🐙 GitHub: https://github.com/sibtain-wani
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Would you like any changes or additions? 🚀
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
