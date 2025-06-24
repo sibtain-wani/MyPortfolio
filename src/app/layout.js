@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 
 export default function RootLayout({ children }) {
-  console.log("sibtain", children)
+
   return (
     <html lang="en">
       <body
